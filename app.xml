@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf8"?>
+<app>
+  <settings>
+    <text name="name" label="Github Account Name" />
+    <text name="repo" label="Github Repository Name" />
+  </settings>
+  <contents>
+    <dir name="views">
+      <file name="index.html" cache="true"/>
+    </dir>
+  </contents>
+  <urls />
+</app>
