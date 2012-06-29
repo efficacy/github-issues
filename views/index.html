@@ -1,5 +1,5 @@
 <h1>Github Issues</h1>
-<h4>For <%= model.name %> / <%= model.repo %></h4>
+<h4>For <a href="https://github.com/<%= model.name %>/<%= model.repo %>"><%= model.name %>/<%= model.repo %></a></h4>
 <ul data-role="listview" data-inset="true">
 <% util.each(model.issues, function (issue) { %>
 	<li><a href='<%= issue.html_url %>'><%= issue.title %></a></li>
